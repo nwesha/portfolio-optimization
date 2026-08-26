@@ -1,8 +1,8 @@
-# 📊 Quantitative Portfolio Allocation & ML Forecasting
+# Quantitative Portfolio Allocation & ML Forecasting
 
 An end-to-end Data Science and Quantitative Finance pipeline that optimizes stock portfolios using **Modern Portfolio Theory (Markowitz)** and forecasts asset returns using **Machine Learning (Random Forest)**. The system includes an AI-powered conversational interface to query the ML models and analytics in real-time.
 
-## 🧠 Core Machine Learning & Quant Pipeline
+## Core Machine Learning & Quant Pipeline
 
 ### 1. Feature Engineering (Time-Series)
 - Constructed predictive features from historical price data.
@@ -30,9 +30,9 @@ An end-to-end Data Science and Quantitative Finance pipeline that optimizes stoc
 
 https://github.com/user-attachments/assets/ea28d24d-5957-4f27-8fcd-90235f5e442a
 
-## 🚀 The App (Streamlit + LLM)
+## The App (Streamlit + LLM)
 
-### 🌐 Live Application
+### Live Application
 The fully functional web application is deployed and available to use here:  
 **[👉 Try the AI Portfolio Advisor App](https://portfolio-optimization-agent.streamlit.app)**  
 *(Note: You will need a free Google Gemini API key to interact with the AI agent)*
@@ -45,17 +45,15 @@ Users can ask questions in natural language (e.g., *"Forecast next month's retur
 ## 📁 Project Structure
 
 ```
-Portfolio-Allocation/
+Portfolio-optimization/
 ├── src/
-│   ├── data_fetcher.py       # yfinance API integration
-│   ├── risk_analysis.py      # Covariance & Sharpe ratio calculations
-│   ├── optimizer.py          # Markowitz CVXPY solver
-│   ├── ml_forecaster.py      # Random Forest feature engineering & training
-│   └── agent.py              # LLM Tool-Calling orchestration
-├── notebooks/
-│   ├── Portfolio_ML_Workflow.ipynb  # Pure Data Science workflow
-│   └── AI_Agent_Tutorial.ipynb      # Tool-calling tutorial
-├── app.py                    # Streamlit interface
+│   ├── data_fetcher.py           # yfinance API integration
+│   ├── risk_analysis.py          # Covariance & Sharpe ratio calculations
+│   ├── optimizer.py              # Markowitz CVXPY solver
+│   ├── ml_forecaster.py          # Random Forest feature engineering & training
+│   └── agent.py                  # LLM Tool-Calling orchestration
+├── app.py                        # Streamlit interface
+├── Portfolio_ML_Workflow.ipynb   # Pure Data Science workflow
 └── requirements.txt
 ```
 
