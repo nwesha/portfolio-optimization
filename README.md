@@ -34,7 +34,7 @@ https://github.com/user-attachments/assets/ea28d24d-5957-4f27-8fcd-90235f5e442a
 
 ### Live Application
 The fully functional web application is deployed and available to use here:  
-**[👉 Try the AI Portfolio Advisor App](https://portfolio-optimization-agent.streamlit.app)**  
+**[Try the AI Portfolio Advisor App here! ](https://portfolio-optimization-agent.streamlit.app)**  
 *(Note: You will need a free Google Gemini API key to interact with the AI agent)*
 
 
@@ -42,7 +42,7 @@ The core ML pipeline is wrapped in a Streamlit web application. An autonomous LL
 
 Users can ask questions in natural language (e.g., *"Forecast next month's returns for the tech sector"*), and the agent will dynamically execute the Random Forest model and Markowitz optimizer to return data-backed insights.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Portfolio-optimization/
