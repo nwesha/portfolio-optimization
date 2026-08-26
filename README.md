@@ -57,10 +57,10 @@ Portfolio-optimization/
 └── requirements.txt
 ```
 
-## 🔧 Tech Stack
+## Tech Stack
 - **Data Science:** Python, pandas, numpy, scikit-learn
 - **Quantitative Finance:** cvxpy, yfinance
 - **Deployment & Engineering:** Streamlit, Google Generative AI (Gemini Tool Calling)
 
-## 📊 Stock Universe
+## Stock Universe
 Analyzes 18 US large-cap stocks across 6 sectors (Tech, Finance, Energy, Consumer Staples, Healthcare, Industrial) to ensure diversified sector exposure during optimization.
