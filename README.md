@@ -18,7 +18,7 @@ An end-to-end Data Science and Quantitative Finance pipeline that optimizes stoc
 ### 3. Return Forecasting (Random Forest)
 - Trained a `RandomForestRegressor` (scikit-learn) to predict 1-month forward returns.
 - Handled noisy financial data using strict hyperparameters (`max_depth=6`, `min_samples_leaf=8`) to prevent overfitting.
-- **Evaluation:** Achieved a **53.09% Directional Accuracy** (predicting the correct sign of the return), which provides a tradable edge and beats the zero-return naive baseline.
+- **Evaluation:** Achieved a **52.26% Directional Accuracy** (predicting the correct sign of the return), which provides a tradable edge and beats the zero-return naive baseline.
 
 ### 4. Portfolio Optimization (Markowitz Mean-Variance)
 - Solved the complex convex optimization problem using `cvxpy`.
